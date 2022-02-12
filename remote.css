@@ -1,0 +1,476 @@
+body {
+    background-image: url(game.jpg);
+    background-repeat: no-repeat;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+  }
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 28px;
+  font-size: 15px;
+}
+
+a {
+  display: inline;
+  padding: 8px;
+  outline-style:none;
+  font-style: italic;
+  font-family:italic;
+
+
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+li {
+  float: left;
+  display: inline;
+  width: 60px;
+  border-right: 1px solid #bbb;
+
+}
+
+hr {
+  width: 180px;
+  border-color: #CCC;
+}
+
+.section-title strong {
+	color: #00C6D7;
+  	font-size: 56px;
+}
+
+.section-title h1 {
+	font-size: 24px;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+.heading {
+  font-size: 20px;
+}
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.bold {
+  font-weight: bold;
+}
+
+
+#home, #login, #help {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.custom-navbar {
+    background: #4B4B4B;
+    margin-bottom: 0;
+}
+.custom-navbar .navbar-brand  {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 24px;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: #00c6d7;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #00c6d7;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #4B4B4B;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #4B4B4B;
+        }
+}
+
+
+/* ==========================================================================
+home section
+========================================================================== */
+#home {
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 77vh;
+  text-align: center;
+}
+#home h1 {
+  font-size: 40px;
+
+}
+#home h3 {
+  font-size: 14px;
+
+}
+#home hr {
+  width: 240px;
+
+}
+#home .btn {
+  background: transparent;
+  border: 4px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
+}
+#home .btn:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+#home .btn-danger {
+  background: #00c6d7;
+  border-color: transparent;
+}
+#home .btn-danger:hover {
+	border: 4px solid #ffffff;
+  	border-radius: 0;
+	background: transparent;
+  	color: #ffffff;
+}
+
+/*=========================================================================
+login section
+=======================================================================*/
+
+#login{
+  background-image: url(sunset.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+}
+
+#login h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 35px;
+  border-radius: 10px 10px 0 0;
+
+}
+div.container {
+ font-family: 'Raleway', sans-serif;
+
+}
+
+div.main{
+  width: 300px;
+  padding: 10px 50px 25px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-family: 'Raleway';
+  float: left;
+  margin-top: 50px;
+
+}
+
+input[type=text],input[type=password]{
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border: 2px solid #CCC;
+  color: #4f4f4f;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+label{
+  color: #ffffff;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+input[type=button]{
+  font-size: 16px;
+  background: linear-gradient(#ffbc 5%,#ffdd7f 100%);
+  border: 1px solid #e5a900;
+  color: #4E4D4B;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+  outline: none;
+
+}
+
+input[type=button]:hover{
+
+  background: linear-gradient(#ffdd7f 5% ,#ffbc00 100%);
+}
+
+
+
+
+
+/* ==========================================================================
+contact section
+========================================================================== */
+#help {
+  background-image: url(contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+
+
+}
+#help h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+
+
+input {
+width:100%;
+margin-bottom:20px;
+padding:5px;
+height:30px;
+box-shadow:1px 1px 12px #4E4D4B;
+border-radius:3px;
+border:none
+}
+textarea {
+width:100%;
+height:80px;
+margin-top:10px;
+padding:5px;
+box-shadow:1px 1px 12px  #4E4D4B;
+border-radius:3px
+}
+#send {
+width:100%;
+height:45px;
+margin-top:40px;
+border-radius:3px;
+background-color:#cd853f;
+border:1px solid #fff;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px
+}
+#feedback {
+text-align:center;
+height:520px;
+width:330px;
+padding:20px 25px 20px 15px;
+background: transparent;
+border-radius:3px;
+border:1px solid #cd853f;
+font-family:'Raleway',sans-serif;
+float:left
+}
+.container {
+width:450px;
+margin:40px auto
+}
+
+input[type=submit]:hover{
+
+  background: linear-gradient(#ffdd7f 5% ,#ffbc00 100%);
+}
+
+
+
+
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/*==================================================================
+
+
+
+
+this portion of code transfer to other css file names as "control.css"
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: inherit;
+
+
+}
+
+@@media all and (max-width:500px){
+  #box_outer{
+    background-color: black;
+  }
+}
+
+
+#box_outer{
+	background-image:url(remote.jpg);
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	float: left;
+	//border: 1px solid green;
+	//padding: 1%;
+}
+
+#container{
+
+	background-color: ghostwhite;
+	width: 600px;
+	height: 300px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	margin: 20px auto;
+	//border: 1px solid green;
+	//padding: 1%;
+
+
+}
+
+.box_row{
+	position: relative;
+	left: 37%;
+	text-align: center;
+	//border: 2px solid red;
+	width: 28%;
+	height: 6%;
+
+
+
+}
+
+
+.button{
+	margin: 10px;
+	border-width: 7px;
+	border-radius: 4px;
+	width: 110px;
+	height: 55px;
+	background-color: darkgrey;
+	font-size: 15px;
+	font-display: bold;
+
+
+
+}
+
+}
+
+.box_outer input[type = "submit"]:
+ hover {
+ 	background: #1ad1ff;
+ 	//text-shadow: 0 1px 3px rgba(70, 93, 41, 0.7);
+
+}
+
+
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
+======================================================================*/

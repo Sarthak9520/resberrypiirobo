@@ -1,0 +1,91 @@
+<!_ _
+Project : Resberry pie smart robot
+- -!>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>control</title>
+
+    <link rel="stylesheet" type="text/css" href="control.css" />
+
+    <script type="text/javascript" href="control.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+    <div align="center" id="box_outer">
+      <div id="container"></div>
+
+      <div class="box_row">
+        <input
+          class="button"
+          type="submit"
+          oneclick="button_direction('c');"
+          value="RECORD"
+        />
+      </div>
+
+      <br /><br />
+
+      <div class="box_row">
+        <input
+          class="button"
+          type="submit"
+          oneclick="button_direction('f');"
+          value="^"
+        />
+      </div>
+
+      <br />
+      <div class="box_row">
+        <input
+          class="button"
+          style="float: center;"
+          type="submit"
+          oneclick="button_direction('l');"
+          value="<"
+        />
+        <input
+          class="button"
+          type="submit"
+          oneclick="button_direction('s');"
+          value="BRAKE"
+        />
+        <input
+          class="button"
+          style="float: center;"
+          type="submit"
+          oneclick="button_direction('r');"
+          value=">"
+        />
+      </div>
+      <br />
+      <div class="box_row">
+        <input
+          class="button"
+          type="submit"
+          oneclick="button_direction('b');"
+          value="v"
+        />
+      </div>
+    </div>
+
+    <section id="IP ADDRESS">
+			<div class="container">
+				<div class="main"
+
+			<div class="col-md-12 col-sm-12 text-center">
+			<div class="section-title">
+
+
+						<form action="" ,method= "post" name="myform"
+						<label>Ip address:</label>
+						<input type="text" name="user" id="Ipaddress" />
+
+						<input type="button" value="connect" id="submit" onclick="validate()" />
+						</form>
+  </body>
+</html>
